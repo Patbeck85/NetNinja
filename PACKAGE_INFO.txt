@@ -1,0 +1,139 @@
+═══════════════════════════════════════════════════════════════
+  NetNinja v5.0 — GitHub Package (COMPLETE)
+═══════════════════════════════════════════════════════════════
+
+📦 INHALT
+
+  src/
+    └── NetNinja.ps1                  ← Haupt-Anwendung (9.248 Zeilen)
+
+  config/
+    └── default_config.json           ← Konfigurations-Vorlage
+
+  scripts/
+    ├── Install.ps1                   ← Desktop-Shortcut erstellen
+    ├── Uninstall.ps1                 ← Alle Änderungen rückgängig machen
+    └── Setup-Git.bat                 ← Automatisches Git-Setup (Windows)
+
+  docs/
+    ├── CONFIGURATION.md              ← Alle Config-Optionen erklärt
+    ├── TROUBLESHOOTING.md            ← 12 häufige Probleme + Fixes
+    ├── CONTRIBUTING.md               ← Code-Richtlinien für Contributors
+    ├── SCREENSHOTS.md                ← Screenshot-Anleitung
+    └── GITHUB_SETUP.md               ← Komplette GitHub-Upload-Anleitung
+
+  tests/
+    └── Test-Functions.ps1            ← Unit-Tests (Ping, Jitter, Score, etc.)
+
+  assets/
+    ├── screenshots/                  ← 8 Platzhalter-Screenshots (PNG)
+    │   ├── main_hud.png              ← 800×600  — Haupt-HUD
+    │   ├── rules_engine.png          ← 700×620  — Rules Engine
+    │   ├── multi_target.png          ← 620×540  — Multi-Target
+    │   ├── optimization_manager.png  ← 600×840  — Optimization Manager
+    │   ├── stats_dashboard.png       ← 640×720  — Stats Dashboard
+    │   ├── mini_hud.png              ← 250×100  — Mini-HUD
+    │   ├── heatmap.png               ← 900×540  — Heatmap
+    │   ├── overlay_mode.png          ← 1920×1080 — Overlay Mode
+    │   ├── Generate-Placeholders.ps1 ← Platzhalter neu erstellen
+    │   └── README.md                 ← Platzhalter-Erklärung
+    └── icons/                        ← (leer — für App-Icon)
+
+  .github/
+    └── ISSUE_TEMPLATE/
+        ├── bug_report.md             ← Bug-Report-Formular
+        └── feature_request.md        ← Feature-Request-Formular
+
+  README.md                           ← Haupt-README (mit Screenshots)
+  README_SIMPLE.md                    ← Einfache Version (ohne Screenshots)
+  QUICKSTART.md                       ← 60-Sekunden-Anleitung
+  CHANGELOG.md                        ← Versions-Historie
+  GITHUB_SETUP.md                     ← GitHub-Upload-Anleitung
+  LICENSE                             ← MIT License
+  .gitignore                          ← Git-Filter (Runtime-Dateien)
+  .vscode/extensions.json             ← VS Code Extension-Empfehlungen
+
+═══════════════════════════════════════════════════════════════
+  🚀 NÄCHSTE SCHRITTE
+═══════════════════════════════════════════════════════════════
+
+  1. ZIP ENTPACKEN
+     → Entpacke NetNinja-v5.0-github.zip in einen Ordner
+
+  2. SCREENSHOTS ERSTELLEN (Optional)
+     → Öffne docs/SCREENSHOTS.md
+     → Folge der Anleitung (8 Screenshots)
+     → Ersetze die Platzhalter-Bilder
+
+  3. GITHUB UPLOAD
+     
+     OPTION A — GitHub Desktop (EINFACH):
+       • Öffne GITHUB_SETUP.md
+       • Folge "Methode 1"
+       • 5 Minuten → FERTIG ✅
+
+     OPTION B — Setup-Git.bat (AUTOMATISCH):
+       • Doppelklick auf scripts/Setup-Git.bat
+       • GitHub-URL eingeben wenn gefragt
+       • FERTIG ✅
+
+     OPTION C — Command Line:
+       • Öffne GITHUB_SETUP.md
+       • Folge "Methode 2"
+       • FERTIG ✅
+
+  4. RELEASE ERSTELLEN (empfohlen)
+     → GitHub → Releases → "Create new release"
+     → Tag: v5.0.0
+     → Upload: NETNINJA_v5.0.ps1 (aus outputs/)
+     → Publish
+
+═══════════════════════════════════════════════════════════════
+  📸 SCREENSHOTS — VORHER/NACHHER
+═══════════════════════════════════════════════════════════════
+
+  JETZT (Platzhalter):
+    ✅ README funktioniert sofort
+    ✅ Korrekte Bild-Größen
+    ✅ GitHub-ready
+
+  SPÄTER (echte Screenshots):
+    1. NetNinja starten
+    2. Screenshots machen (siehe docs/SCREENSHOTS.md)
+    3. Dateien überschreiben (gleiche Namen!)
+    4. git commit -m "Add real screenshots"
+    5. git push
+    → GitHub zeigt automatisch echte Bilder!
+
+═══════════════════════════════════════════════════════════════
+  ✅ CHECKLISTE
+═══════════════════════════════════════════════════════════════
+
+  Repository Setup:
+    ☐ ZIP entpacken
+    ☐ GitHub-Account erstellt
+    ☐ Git installiert (https://git-scm.com/download/win)
+    ☐ Repository auf GitHub erstellt
+    ☐ Code hochgeladen (via Desktop/Bat/CLI)
+    ☐ README sieht gut aus
+
+  Screenshots (optional):
+    ☐ main_hud.png
+    ☐ rules_engine.png
+    ☐ multi_target.png
+    ☐ optimization_manager.png
+    ☐ stats_dashboard.png
+    ☐ mini_hud.png
+    ☐ heatmap.png
+    ☐ overlay_mode.png
+
+  Release:
+    ☐ Tag v5.0.0 erstellt
+    ☐ NetNinja.ps1 hochgeladen
+    ☐ Release veröffentlicht
+
+═══════════════════════════════════════════════════════════════
+
+  Made with 🥷 — Ready for GitHub!
+
+═══════════════════════════════════════════════════════════════

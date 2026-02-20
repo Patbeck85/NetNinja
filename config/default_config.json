@@ -1,0 +1,21 @@
+{
+  "ServerAddress": "127.0.0.1",
+  "ServerPort": 5121,
+  "ProcessName": "ragnarok",
+  "AlertHighPing": 150,
+  "AlertCriticalPing": 300,
+  "SpikeThreshold": 50,
+  "AdaptiveRate": true,
+  "PingIntervalMin": 1000,
+  "PingIntervalMax": 5000,
+  "AdaptiveStableMaxPing": 80,
+  "AdaptiveStableJitter": 15,
+  "AdaptiveStableWindow": 10,
+  "CurrentProfile": "MMO",
+  "SelectedAdapter": null,
+  "DarkMode": true,
+  "AudioAlertEnabled": true,
+  "HUDOpacity": 0.96,
+  "HUDTopMost": true,
+  "HUDLocation": { "X": 20, "Y": 20 }
+}
