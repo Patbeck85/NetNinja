@@ -164,14 +164,14 @@
 ### Installation
 
 **Option 1: One-Click (Recommended)**
-1. Download [NetNinja.ps1](https://github.com/YourUsername/NetNinja/releases/latest)
+1. Download [NetNinja.ps1](https://github.com/Patbeck85/NetNinja/releases/latest)
 2. Right-click → **Run with PowerShell**
 3. Done! 🎉
 
 **Option 2: With Installer**
 ```powershell
 # Clone or download this repository
-git clone https://github.com/YourUsername/NetNinja.git
+git clone https://github.com/Patbeck85/NetNinja.git
 cd NetNinja
 
 # Create desktop shortcut with Admin flag
